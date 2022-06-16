@@ -11,5 +11,5 @@ class Post(models.Model):
         get_user_model(), 
         on_delete=models.CASCADE
     )
-    created_at = models.DateTimeField(auto_now_add=True)
-    published_at = models.DateTimeField(auto_now=True)
+    created_date = models.DateTimeField(auto_now_add=True)
+    published_date = models.DateTimeField(auto_now=True)
